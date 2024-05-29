@@ -1,0 +1,14 @@
+.feedbackForm {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+.feedbackForm > span {
+  font-weight: 500;
+}
+
+.ratings {
+  font-size: 15px;
+  /* margin-left: 11px; */
+}
