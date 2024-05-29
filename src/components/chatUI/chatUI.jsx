@@ -165,7 +165,7 @@ export default function ChatUI() {
                     ))
                 ) : (
                     <div>
-                        <div>
+                        <div className={styles.helplogodiv}>
                             <h4 className={styles.logoh2chatdiv}>How Can I Help You Today?</h4>
                             <img src={logo2} alt="" className={styles.logoimgchatdiv} />
                         </div>

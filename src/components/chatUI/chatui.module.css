@@ -1,9 +1,9 @@
 /*****************************/
 
 .wholepagediv {
-  height: max-content;
-  width: 78.1vw;
-  margin-left: 163px;
+  height: 100%;
+  width: 100%;
+  /* margin-left: 163px; */
   display: flex;
   /* background: #d7c7f459; */
 
@@ -18,9 +18,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: min-content;
-  width: 78.1vw;
-  margin-left: 0px;
+  height: 100vh;
+  width: 79vw;
+  margin-left: 250px;
+
   /* display: flex; */
   /* border: 1px solid rgb(0, 255, 8); */
 }
@@ -31,7 +32,7 @@
   font-size: 22px;
   margin-top: 5px;
   margin-left: 10px;
-  margin-right: 480px;
+  margin-right: 0px;
   color: #9785ba;
 }
 
@@ -39,6 +40,15 @@
   color: #000000;
 }
 
+.helplogodiv {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  /* border: 1px solid rgb(0, 255, 8); */
+}
 .logoh2chatdiv {
   margin-bottom: 0px;
 }
@@ -50,7 +60,7 @@
 
 .chatuis {
   height: max-content;
-  width: 70vw;
+  width: 72vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -60,7 +70,7 @@
 .yourdiv {
   /* border: 1px solid rgb(255, 0, 0); */
   height: max-content;
-  width: 70vw;
+  width: 72vw;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -171,21 +181,21 @@
 
 .inputbardiv {
   height: 40px;
-  margin-top: 30px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   width: 70vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
-
+  padding: 10px;
   /* flex-direction: column; */
   /* border: 1px solid rgb(60, 255, 0); */
   /* border: 1px solid #00000073; */
 }
 
 .inputbardiv > input {
-  width: 450px;
-  height: 20px;
+  width: 62vw;
+  height: 22px;
   border: 1px solid #76767673;
   box-shadow: 0px 4px 4px 0px #00000026;
   /* border: none; */
@@ -194,7 +204,7 @@
 
 .inputbardiv > button {
   width: 40px;
-  height: 20px;
+  height: 25px;
   background: #d7c7f4;
   border: none;
   outline: none;
@@ -263,7 +273,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    height: 130vh;
     width: 100%;
     margin-left: 5px;
     /* display: flex; */
@@ -311,7 +321,7 @@
     height: 50px;
     margin-top: 30px;
     margin-bottom: 34px;
-    width: 77vw;
+    width: 85vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -321,7 +331,7 @@
   }
 
   .inputbardiv > input {
-    width: 175px;
+    width: 218px;
     height: 35px;
     border: 1px solid #76767673;
     box-shadow: 0px 10px 4px 0px #00000026;
